@@ -1,0 +1,84 @@
+/* body {
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1D6FB6;
+
+    --accent-purple: #B259FF;
+    --accent-fuschia: #FF59F9;
+    --accent-pink: #FF598B;
+    --accent-orange: #FF8B59;
+    --accent-yellow: #FFCD59;
+    --accent-lime: #E1FF59;
+    --accent-green: #59FF91;
+    --accent-cyan: #59FFF9;
+    --accent-navy: #6A59FF;
+    --feedback-danger: #FF5959;
+
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+
+    --logo: 400 40px 'Leckerli One', sans-serif;
+    --heading-md: 'Baloo 2' 28px bold;
+    --heading-sm: 'Baloo 2' 18px bold;
+    --body-md: 'Open Sans' 16px regular/SemiBold;
+    --body-sm: 'Open Sans' 14px regular/SemiBold;
+    --body-xs: 'Open Sans' 12px regular/SemiBold;
+
+    margin: 1.5rem;
+} */
+
+aside  {
+    height: 95vh;
+    border-radius: 12px;
+    position: sticky;
+    top: 1.5rem;
+
+    .img-background {
+        background-image: url(../assets/illustration/Background.png);
+        height: 100%;
+        width: 100%;
+        border-radius: inherit;
+        
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .content {
+        padding-inline: 2.5rem;
+        padding-top: 2rem;
+
+        & img {
+            height: 45.85px;
+            margin-bottom: 1rem
+        };
+    
+        & span {
+            display: block;
+            font: var(--body-md);
+            font-weight: 100;
+            color: var(--text-body);
+            margin-top: 0.5rem;
+        }
+    }
+}
+
+
+h1 {
+    font: var(--logo);
+    color: var(--accent-pink);
+}
